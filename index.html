@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regexing Passwords</title>
+    <script src="regexing.js" defer></script>
+    <style>
+        .pid{border-style: solid;
+            width:300px;
+            height:50px;
+            margin-top: 25px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Regexing Passwords!</h1>
+    <input type="password" name = "passcode" id = "passcode" placeholder="Enter Passcode Here" required >
+    <button type='button' class='submit-btn' onclick="callback()">Verify</button>
+    <div class="pid"><p id = "verif "></p></div>
+</body>
+</html>
